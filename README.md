@@ -20,7 +20,7 @@ Engineered using **Python**, **OpenCV**, **MediaPipe**, and Windows APIs (`pycaw
 ---
 
 ## 📁 Project Structure
-
+```bash
 RealTime-HandGesture-HCI/
 ├── handtrackingmodule.py # Core reusable module for hand tracking
 ├── VolumeHandControl.py # Controls system volume via gestures
