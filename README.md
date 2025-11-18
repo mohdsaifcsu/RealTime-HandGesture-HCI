@@ -10,16 +10,16 @@ Engineered using **Python**, **OpenCV**, **MediaPipe**, and Windows APIs (`pycaw
 ##  Features
 
 -  Real-time hand detection and tracking using **MediaPipe**
-- ✋ Finger state recognition (e.g., thumb–index distance)
-- 🔊 Volume control via hand gesture (with safety trigger: pinky down)
-- 💡 Screen brightness control via hand gesture
+-  Finger state recognition (e.g., thumb–index distance)
+-  Volume control via hand gesture (with safety trigger: pinky down)
+-  Screen brightness control via hand gesture
 -  On-screen visual feedback and FPS display
 -  Modular design with a reusable hand tracking module
 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```bash
 RealTime-HandGesture-HCI/
 ├── handtrackingmodule.py # Core reusable module for hand tracking
@@ -54,7 +54,7 @@ python VolumeHandControl.py
 ```bash
 python GestureBrightnessControl.py
 
-🖐️ Use a pinch gesture (thumb + index finger) to adjust settings.
+ Use a pinch gesture (thumb + index finger) to adjust settings.
  Setting is only applied when pinky is down (gesture safety mechanism).
 
 ##  Technologies Used
@@ -80,12 +80,12 @@ This project was developed as part of a **Computer Vision** academic module, wit
 ##  Author
 
 **Mohd Saif**  
-🎓 Master’s Student – Colorado State University  
-🔗 GitHub: [mohdsaifcsu](https://github.com/mohdsaifcsu)
+ Master’s Student – Colorado State University  
+ GitHub: [mohdsaifcsu](https://github.com/mohdsaifcsu)
 
 ---
 
-## 📄 License
+##  License
 
 This project is released for **educational and academic purposes only**.  
 Please cite or credit appropriately if used in your work.
