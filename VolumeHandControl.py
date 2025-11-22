@@ -9,8 +9,8 @@ from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
 # ============================== SETTINGS ==============================
 wCam, hCam = 640, 480
-cameraIndex = 0  # Change to 0 if your webcam doesn't open
-smoothness = 10  # Smoother volume transitions (e.g., 10 = snap to nearest 10%)
+cameraIndex = 0  # Change to 0 if your webcam does not open
+smoothness = 10  # Smoother volume transitions (e.g. 10 = snap to nearest 10%)
 
 # ============================== SETUP ==============================
 cap = cv2.VideoCapture(cameraIndex)
