@@ -81,7 +81,7 @@ This project was developed as part of a **Computer Vision** academic module, wit
 ##  Author
 
 **Mohd Saif**  
- Master’s Student – Colorado State University  
+ Master’s Student - Colorado State University  
  GitHub: [mohdsaifcsu](https://github.com/mohdsaifcsu)
 
 ---
