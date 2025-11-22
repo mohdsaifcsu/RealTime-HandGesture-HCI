@@ -70,7 +70,7 @@ class handDetector():
         else:
             fingers.append(0)
 
-        # 4 Fingers
+        # 4 Fingers.
         for id in range(1, 5):
             if self.lmList[self.tipIds[id]][2] < self.lmList[self.tipIds[id] - 2][2]:
                 fingers.append(1)
@@ -95,7 +95,7 @@ class handDetector():
         length = math.hypot(x2 - x1, y2 - y1)
         return length, img, [x1, y1, x2, y2, cx, cy]
 
-
+# main
 def main():
     pTime = 0
     cap = cv2.VideoCapture(0)  # change to 1 if using external webcam
