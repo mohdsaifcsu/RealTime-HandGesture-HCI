@@ -10,7 +10,7 @@ Engineered using **Python**, **OpenCV**, **MediaPipe**, and Windows APIs (`pycaw
 ##  Features
 
 -  Real-time hand detection and tracking using **MediaPipe**
--  Finger state recognition (e.g., thumb–index distance)
+-  Finger state recognition (e.g., thumb-index distance)
 -  Volume control via hand gesture (with safety trigger: pinky down)
 -  Screen brightness control via hand gesture
 -  On-screen visual feedback and FPS display
