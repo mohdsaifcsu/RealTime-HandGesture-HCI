@@ -28,7 +28,7 @@ RealTime-HandGesture-HCI/
 ├── requirements.txt # All required Python packages
 ├── .gitignore # Prevents upload of unnecessary files
 └── README.md # Project documentation (this file)
-
+```
 ---
 
 ##  Install Dependencies
@@ -37,11 +37,12 @@ Install all required Python libraries:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Or install manually:
+```bash
 pip install opencv-python mediapipe numpy pycaw wmi comtypes
-
+```
 
 
 ##  How to Run
@@ -49,11 +50,11 @@ pip install opencv-python mediapipe numpy pycaw wmi comtypes
 ###  Volume Control
 ```bash
 python VolumeHandControl.py
-
+```
 ## Brightness Control
 ```bash
 python GestureBrightnessControl.py
-
+```
  Use a pinch gesture (thumb + index finger) to adjust settings.
  Setting is only applied when pinky is down (gesture safety mechanism).
 
